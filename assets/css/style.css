@@ -1,0 +1,255 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing:border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+.header{
+	padding-top:26px;
+}
+.navbar li{
+	display : inline-block;
+	margin-right: 35px;
+
+}
+.navbar li a{
+	font-size:18px;
+	color:#006a4d;
+	font-weight:bold;
+	text-transform:uppercase;
+	position : relative;
+	padding-bottom: 18px;
+}
+.nav{
+	padding-top : 25px;
+}
+.navbar li a:hover, .navbar li a:focus, .navbar li a:active{
+	color:#9ad179;
+}
+.btn{
+	margin-top: 15px;
+    height: 52px;
+    width: 115px;
+    cursor: pointer;
+    background-color: #69be28;
+    color: #fff;
+    border: 1px solid #69be28;
+}
+.btn:hover, .btn:focus, .btn:active{
+	color: #69be28;
+	background-color: #fff;
+}
+
+.navbar ul li a::after{
+	content:'';
+	height:5px;
+	background-color:#9ad179;
+
+	position:absolute;
+	width:100%;
+	left:0;
+	bottom:0;
+	transition: all 0.5s ease-in-out;
+	
+}
+
+/* .navbar ul li a:hover::after{ */
+	/* width:100%; */
+/* } */
+
+
+/* section heroimg starts ==================================== */
+
+.heroimg{
+	height: 100vh;
+	/* width : 100%; */
+	background-image : url(../images/imgbg.png);
+	background-size : cover;
+	background-position : center center ;
+	position : relative;
+}
+.heroimg::after{
+	content:'';
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.4);
+}
+.info{
+	position :absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	z-index:1;
+}
+.info h1{
+	color:#fff;
+	font-size:32px;
+	font-weight : bold;
+}
+
+.info h2{
+	color:#fff;
+	font-size:58px;
+	font-weight :bold;
+	text-transform:uppercase;
+	position : relative;
+	margin:25px;
+	padding-bottom:25px;
+}
+.info h2::after{
+	content:'';
+	position : absolute;
+	height:3px;
+	background-color:#fff;
+	left:0;
+	bottom:0;
+	width:100%;
+}
+.info p{
+	color:#fff;
+	font-size:22px;
+	font-weight : bold;
+}
+/* ...................................................................... */
+
+.Aboutevent{
+	padding:125px 0px;
+}
+/* .Aboutevent p{ */
+	/* line-height:1.5; */
+/* } */
+/* .eventinfo{ */
+	/* padding-right:50px; */
+/* } */
+.event-info h2{
+	font-size:36px;
+	font-weight:bold;
+	color:#006a4d;
+	text-transform:uppercase;
+}
+.event-info p{
+	font-size:16px;
+	font-weight:regular;
+	color:#000;
+	/* line-height:1.5; */
+	
+}
+.event-info h3{
+	font-size:20px;
+	font-weight:bold;
+	color:#006a4d;
+}
+.event-img img{
+	padding-top:65px;
+	
+}
+
+/* ...................................................................... */
+
+.speakers{
+	padding : 100px 0px;
+	background-color: #006a4d;
+}
+.speaker-info h3{
+	font-size:36px;
+	font-weight:bold;
+	color:#fff;
+	text-transform:uppercase;
+}
+.speaker-info p{
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:50px;
+	
+}
+.thumbnail {
+	margin-bottom:70px;
+}
+.thumbimg img{
+	height:160px;
+	width:160px;
+	border-radius : 50%;
+	/* margin:0 auto; */
+}
+
+.thumbinfo h3{
+	font-size:18px;
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:12px;
+	text-transform:uppercase;
+}
+
+.thumbinfo p{
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:5px;
+	/* line-height:1.5; */
+	
+}
+.button a{
+	text-transform:uppercase;
+	padding: 15px  ;
+	border-radius:5px;
+	color:#fff;
+	height:45px;
+	width:225px;
+	cursor:pointer;
+	border:2px solid #fff;
+}
+.button a:hover, .button a:focus, .button a:active{
+	background-color:#fff;
+	color:#006a4d;
+}
+
+/* ................................................ */
+
+footer{
+	padding: 80px 0px 72px 0px;
+	background-color:#3c3c3c;
+}
+
+.footerlogo {
+	padding:55px;
+}
+
+.footerlinks li{
+	display: inline-block;
+		color:#fff;
+	
+}
+.footerlinks a {
+	color:#fff;
+	    /* margin-right: 70px; */
+}
+.follow{
+	font-size:18px;
+	font-weight:bold;
+	margin-right:30px;
+}
+.footerlinks  i{
+	
+	font-size:20px;
+}
+
+.button a:hover, .button a:focus, .button a:active{
+	background-color:#fff;
+	color:#006a4d;
+}
+
+.social a{
+	padding: 10px;
+    margin-left: 5px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.social a:hover, .social a:focus, .social a:active{
+	background-color:#fff;
+	color:#000;
+}
